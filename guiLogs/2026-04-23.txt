@@ -1,0 +1,70 @@
+2026-04-23 08:20:33.1457-INFO v2rayN start up | v2rayN - V7.20.4 - X64 | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\ | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\v2rayN.exe | Microsoft Windows NT 10.0.19044.0
+2026-04-23 08:20:33.2293-INFO MigrateProfileExtraGroup: No items to migrate.
+2026-04-23 08:20:36.1444-INFO Setup Scheduled Tasks
+2026-04-23 08:21:50.5390-INFO AppExitAsync Begin
+2026-04-23 08:21:50.6385-INFO AppExitAsync End
+2026-04-23 08:21:50.6385-INFO OnExit
+2026-04-23 08:21:53.5061-INFO v2rayN start up | v2rayN - V7.20.4 - X64 | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\ | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\v2rayN.exe | Microsoft Windows NT 10.0.19044.0
+2026-04-23 08:21:53.5548-INFO MigrateProfileExtraGroup: No items to migrate.
+2026-04-23 08:21:54.8121-INFO Setup Scheduled Tasks
+2026-04-23 08:32:31.9555-DEBUG ConfigHandler,IO_FileNotFound_FileName, E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\guiConfigs\guiNConfig.json_temp
+2026-04-23 08:32:31.9680-DEBUG    at System.IO.File.Move(String sourceFileName, String destFileName, Boolean overwrite)
+   at ServiceLib.Handler.ConfigHandler.SaveConfig(Config config) in /home/runner/work/v2rayN/v2rayN/v2rayN/ServiceLib/Handler/ConfigHandler.cs:line 199
+2026-04-23 09:02:01.9652-INFO AppExitAsync Begin
+2026-04-23 09:02:02.1302-INFO AppExitAsync End
+2026-04-23 09:02:02.1415-INFO OnExit
+2026-04-23 09:02:41.5090-INFO v2rayN start up | v2rayN - V7.20.4 - X64 | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\ | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\v2rayN.exe | Microsoft Windows NT 10.0.19044.0
+2026-04-23 09:02:41.5279-INFO MigrateProfileExtraGroup: No items to migrate.
+2026-04-23 09:02:43.8542-INFO Setup Scheduled Tasks
+2026-04-23 09:06:52.5392-INFO AppExitAsync Begin
+2026-04-23 09:06:52.7062-INFO AppExitAsync End
+2026-04-23 09:06:52.7161-INFO OnExit
+2026-04-23 09:49:38.2852-INFO v2rayN start up | v2rayN - V7.20.4 - X64 | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\ | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\v2rayN.exe | Microsoft Windows NT 10.0.19044.0
+2026-04-23 09:49:38.3718-INFO MigrateProfileExtraGroup: No items to migrate.
+2026-04-23 09:49:40.8682-INFO Setup Scheduled Tasks
+2026-04-23 09:57:05.4281-DEBUG GetCliWrapOutput,Command execution failed, see the inner exception for details.
+
+Standard error:
+
+2026-04-23 09:57:05.5283-DEBUG    at CliWrap.Buffered.BufferedCommandExtensions.<>c__DisplayClass1_0.<<ExecuteBufferedAsync>b__0>d.MoveNext() in /_/CliWrap/Buffered/BufferedCommandExtensions.cs:line 66
+--- End of stack trace from previous location ---
+   at ServiceLib.Common.Utils.GetCliWrapOutput(String filePath, IEnumerable`1 args) in /home/runner/work/v2rayN/v2rayN/v2rayN/ServiceLib/Common/Utils.cs:line 900
+2026-04-23 09:57:05.5283-ERROR CliWrap.Exceptions.CommandExecutionException: Command execution failed because the underlying process (pnputil.exe#8576) returned a non-zero exit code (-536870389).
+
+Command:
+C:\Windows\System32\pnputil.exe  /remove-device  "SWD\Wintun\{b738a021-9842-444c-10b0-a4e3f65ab5b6}" 
+
+You can suppress this validation by calling `WithValidation(CommandResultValidation.None)` on the command.
+2026-04-23 11:36:37.8163-INFO AppExitAsync Begin
+2026-04-23 11:36:37.9775-INFO AppExitAsync End
+2026-04-23 11:36:38.0177-INFO OnExit
+2026-04-23 11:36:47.3502-INFO v2rayN start up | v2rayN - V7.20.4 - X64 | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\ | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\v2rayN.exe | Microsoft Windows NT 10.0.19044.0
+2026-04-23 11:36:47.3981-INFO MigrateProfileExtraGroup: No items to migrate.
+2026-04-23 11:36:48.6995-INFO Setup Scheduled Tasks
+2026-04-23 11:37:57.3522-INFO AppExitAsync Begin
+2026-04-23 11:37:57.5129-INFO AppExitAsync End
+2026-04-23 11:37:57.5314-INFO OnExit
+2026-04-23 11:40:13.3444-INFO v2rayN start up | v2rayN - V7.20.4 - X64 | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\ | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\v2rayN.exe | Microsoft Windows NT 10.0.19044.0
+2026-04-23 11:40:13.3926-INFO MigrateProfileExtraGroup: No items to migrate.
+2026-04-23 11:40:14.7158-INFO Setup Scheduled Tasks
+2026-04-23 12:00:27.2885-INFO AppExitAsync Begin
+2026-04-23 12:00:27.4483-INFO AppExitAsync End
+2026-04-23 12:00:27.4600-INFO OnExit
+2026-04-23 12:00:59.2409-INFO v2rayN start up | v2rayN - V7.20.4 - X64 | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\ | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\v2rayN.exe | Microsoft Windows NT 10.0.19044.0
+2026-04-23 12:00:59.2902-INFO MigrateProfileExtraGroup: No items to migrate.
+2026-04-23 12:01:01.5907-INFO Setup Scheduled Tasks
+2026-04-23 12:10:54.7513-INFO Current_SessionEnding
+2026-04-23 12:10:54.7513-INFO AppExitAsync Begin
+2026-04-23 12:10:54.8944-INFO OnExit
+2026-04-23 12:20:44.1164-INFO v2rayN start up | v2rayN - V7.20.4 - X64 | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\ | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\v2rayN.exe | Microsoft Windows NT 10.0.19044.0
+2026-04-23 12:20:44.2061-INFO MigrateProfileExtraGroup: No items to migrate.
+2026-04-23 12:20:46.6331-INFO Setup Scheduled Tasks
+2026-04-23 12:22:41.7196-DEBUG CoreHandler,Не удалось запустить ядро, посмотрите логи
+2026-04-23 12:22:41.8119-DEBUG    at ServiceLib.Manager.CoreManager.RunProcessNormal(String fileName, CoreInfo coreInfo, String configPath, Boolean displayLog) in /home/runner/work/v2rayN/v2rayN/v2rayN/ServiceLib/Manager/CoreManager.cs:line 274
+   at ServiceLib.Manager.CoreManager.RunProcess(CoreInfo coreInfo, String configPath, Boolean displayLog, Boolean mayNeedSudo) in /home/runner/work/v2rayN/v2rayN/v2rayN/ServiceLib/Manager/CoreManager.cs:line 240
+2026-04-23 12:25:07.3227-DEBUG CoreHandler,Не удалось запустить ядро, посмотрите логи
+2026-04-23 12:25:07.3227-DEBUG    at ServiceLib.Manager.CoreManager.RunProcessNormal(String fileName, CoreInfo coreInfo, String configPath, Boolean displayLog) in /home/runner/work/v2rayN/v2rayN/v2rayN/ServiceLib/Manager/CoreManager.cs:line 274
+   at ServiceLib.Manager.CoreManager.RunProcess(CoreInfo coreInfo, String configPath, Boolean displayLog, Boolean mayNeedSudo) in /home/runner/work/v2rayN/v2rayN/v2rayN/ServiceLib/Manager/CoreManager.cs:line 240
+2026-04-23 12:29:47.0350-DEBUG ConfigHandler,IO_FileNotFound_FileName, E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\guiConfigs\guiNConfig.json_temp
+2026-04-23 12:29:47.0501-DEBUG    at System.IO.File.Move(String sourceFileName, String destFileName, Boolean overwrite)
+   at ServiceLib.Handler.ConfigHandler.SaveConfig(Config config) in /home/runner/work/v2rayN/v2rayN/v2rayN/ServiceLib/Handler/ConfigHandler.cs:line 199

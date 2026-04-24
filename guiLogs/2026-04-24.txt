@@ -1,0 +1,12 @@
+2026-04-24 02:10:14.7353-DEBUG TaskScheduler_UnobservedTaskException,TaskExceptionHolder_UnhandledException (net_io_readfailure, Удаленный хост принудительно разорвал существующее подключение.)
+2026-04-24 02:10:14.7353-DEBUG 
+2026-04-24 02:10:14.7353-ERROR System.IO.IOException: net_io_readfailure, Удаленный хост принудительно разорвал существующее подключение.
+2026-04-24 02:23:57.4136-DEBUG TaskScheduler_UnobservedTaskException,TaskExceptionHolder_UnhandledException (net_io_readfailure, Удаленный хост принудительно разорвал существующее подключение.)
+2026-04-24 02:23:57.4136-DEBUG 
+2026-04-24 02:23:57.4136-ERROR System.IO.IOException: net_io_readfailure, Удаленный хост принудительно разорвал существующее подключение.
+2026-04-24 03:01:22.1703-INFO AppExitAsync Begin
+2026-04-24 03:01:22.3305-INFO AppExitAsync End
+2026-04-24 03:01:22.3424-INFO OnExit
+2026-04-24 03:07:51.2139-INFO v2rayN start up | v2rayN - V7.20.4 - X64 | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\ | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\v2rayN.exe | Microsoft Windows NT 10.0.19044.0
+2026-04-24 03:07:51.2624-INFO MigrateProfileExtraGroup: No items to migrate.
+2026-04-24 03:07:53.6325-INFO Setup Scheduled Tasks
