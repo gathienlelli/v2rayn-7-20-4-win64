@@ -1,0 +1,5 @@
+2026-04-25 02:40:25.6578-DEBUG Utils,Format_BadBase64Char
+2026-04-25 02:40:25.6578-DEBUG    at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at ServiceLib.Common.Utils.Base64Decode(String plainText) in /home/runner/work/v2rayN/v2rayN/v2rayN/ServiceLib/Common/Utils.cs:line 129

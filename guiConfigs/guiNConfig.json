@@ -1,5 +1,5 @@
 {
-  "IndexId": "5620740021485458593",
+  "IndexId": "4705860736509926207",
   "SubIndexId": null,
   "CoreBasicItem": {
     "LogEnabled": false,
@@ -161,7 +161,7 @@
       },
       {
         "TypeName": "RoutingRuleSettingWindow",
-        "Width": 1336,
+        "Width": 1400,
         "Height": 707
       },
       {
@@ -176,8 +176,8 @@
       },
       {
         "TypeName": "RoutingRuleDetailsWindow",
-        "Width": 1107,
-        "Height": 567
+        "Width": 1115,
+        "Height": 604
       },
       {
         "TypeName": "ProfilesSelectWindow",
@@ -191,6 +191,11 @@
       },
       {
         "TypeName": "GlobalHotkeySettingWindow",
+        "Width": 700,
+        "Height": 500
+      },
+      {
+        "TypeName": "AddServer2Window",
         "Width": 700,
         "Height": 500
       }
