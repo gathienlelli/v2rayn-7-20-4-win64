@@ -1,0 +1,6 @@
+2026-04-26 11:24:39.2098-INFO Current_SessionEnding
+2026-04-26 11:24:39.3797-INFO AppExitAsync Begin
+2026-04-26 11:24:39.5624-INFO AppExitAsync End
+2026-04-26 12:07:38.0675-INFO v2rayN start up | v2rayN - V7.20.4 - X64 | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\ | E:\Downloads\Программы\VPN_anonimity\v2rayN\v2rayn-7-20-4-win64\v2rayN.exe | Microsoft Windows NT 10.0.19044.0
+2026-04-26 12:07:38.2281-INFO MigrateProfileExtraGroup: No items to migrate.
+2026-04-26 12:07:44.5757-INFO Setup Scheduled Tasks

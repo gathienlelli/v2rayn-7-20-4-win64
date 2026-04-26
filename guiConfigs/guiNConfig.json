@@ -6,7 +6,7 @@
     "Loglevel": "warning",
     "MuxEnabled": false,
     "DefAllowInsecure": false,
-    "DefFingerprint": null,
+    "DefFingerprint": "chrome",
     "DefUserAgent": null,
     "SendThrough": "",
     "EnableFragment": false,
@@ -39,7 +39,7 @@
   },
   "RoutingBasicItem": {
     "DomainStrategy": "AsIs",
-    "DomainStrategy4Singbox": "",
+    "DomainStrategy4Singbox": "prefer_ipv4",
     "RoutingIndexId": null
   },
   "GuiItem": {
@@ -47,7 +47,7 @@
     "EnableStatistics": false,
     "DisplayRealTimeSpeed": false,
     "KeepOlderDedupl": false,
-    "AutoUpdateInterval": 0,
+    "AutoUpdateInterval": 24,
     "TrayMenuServersLimit": 20,
     "EnableHWA": false,
     "EnableLog": true
@@ -68,7 +68,7 @@
     "CurrentFontSize": 0,
     "EnableDragDropSort": false,
     "DoubleClick2Activate": false,
-    "AutoHideStartup": false,
+    "AutoHideStartup": true,
     "Hide2TrayWhenClose": false,
     "MacOSShowInDock": false,
     "MainColumnItem": [
@@ -146,8 +146,8 @@
       },
       {
         "TypeName": "OptionSettingWindow",
-        "Width": 1124,
-        "Height": 778
+        "Width": 1234,
+        "Height": 867
       },
       {
         "TypeName": "SubEditWindow",
@@ -176,8 +176,8 @@
       },
       {
         "TypeName": "RoutingRuleDetailsWindow",
-        "Width": 1115,
-        "Height": 604
+        "Width": 795,
+        "Height": 695
       },
       {
         "TypeName": "ProfilesSelectWindow",
@@ -203,8 +203,8 @@
   },
   "ConstItem": {
     "SubConvertUrl": null,
-    "GeoSourceUrl": null,
-    "SrsSourceUrl": null,
+    "GeoSourceUrl": "https://github.com/Loyalsoldier/sing-geoip/releases/latest/download/geoip.db",
+    "SrsSourceUrl": "https://github.com/Loyalsoldier/sing-geosite/releases/latest/download/geosite.db",
     "RouteRulesTemplateSourceUrl": null
   },
   "SpeedTestItem": {
@@ -212,7 +212,7 @@
     "SpeedTestUrl": "https://cachefly.cachefly.net/50mb.test",
     "SpeedPingTestUrl": "https://www.google.com/generate_204",
     "MixedConcurrencyCount": 5,
-    "IPAPIUrl": null
+    "IPAPIUrl": ""
   },
   "Mux4RayItem": {
     "Concurrency": 8,
@@ -282,7 +282,9 @@
   },
   "CheckUpdateItem": {
     "CheckPreReleaseUpdate": false,
-    "SelectedCoreTypes": null
+    "SelectedCoreTypes": [
+      "GeoFiles"
+    ]
   },
   "Fragment4RayItem": {
     "Packets": "tlshello",
@@ -372,7 +374,7 @@
     "FakeIP": false,
     "GlobalFakeIp": true,
     "BlockBindingQuery": true,
-    "DirectDNS": "8.8.8.8",
+    "DirectDNS": "1.1.1.1",
     "RemoteDNS": "https://cloudflare-dns.com/dns-query",
     "BootstrapDNS": "1.0.0.1",
     "Strategy4Freedom": null,
